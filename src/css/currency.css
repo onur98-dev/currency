@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/stonk.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.title {
+    margin-top: 70px;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+.currency-container {
+    padding: 10px;
+
+    margin: 10px;
+    border: 1px solid rgb(97, 97, 97);
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px 2px rgb(202, 191, 191);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: fit-content;
+    text-align: center;
+}
+
+.fromCurrency {
+    margin-right: 10px;
+    height: 25px;
+    border-radius: 8px;
+    width: 200px;
+    background-color: beige;
+}
+
+.toCurrency {
+
+    height: 25px;
+    border-radius: 8px;
+    width: 200px;
+    background-color: beige;
+}
+
+.firstSelection {
+    margin-right: 10px;
+    height: 25px;
+    border-radius: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: beige;
+}
+
+
+.secondSelection {
+    margin-left: 10px;
+    height: 25px;
+    border-radius: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: beige;
+}
+
+.arrow {
+    padding-top: 10px;
+    font-size: 20px;
+    color: rgb(255, 235, 210);
+}
+
+.calculate {
+
+    padding: 10px;
+    margin-top: 40px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    background-color: rgb(247, 240, 232);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
